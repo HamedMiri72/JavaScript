@@ -125,5 +125,42 @@ let html = `
 `;
 console.log(html);
 
+//ARRAY
+
+let list = ["hamed", "aksahy", "zeinab"];
+
+//we can overwrite an index in the list
+list[1] = "majid"
+console.log(list[1]);
+
+let ages = [20, 34, 56, 54];
+console.log(ages[3]);
+
+let random = ["hamed", "miri", 20, 30];
+console.log(random);
+
+//property and methods
+
+console.log(list.length);
+
+let result_list = list.join(",");
+console.log(result_list);
+
+let result_index = list.indexOf("hamed");
+console.log(result_index);
+
+let result_concatenation = list.concat(["zahra"]);
+console.log(result_concatenation);
+
+let result_push = list.push("mohamad");
+let result_pop = list.pop();
+console.log(result_pop); // take off the end value
+console.log(result_push);
+console.log(list);
+
+
+
+
+
 
 
