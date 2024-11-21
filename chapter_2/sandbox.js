@@ -74,7 +74,37 @@ console.log(index);
 
 //let result_email = email.replace("h", "n"); // it s going to replace the first m wuth  n
 
-console.log(result_email);
+//console.log(result_email);
+
+//NUMBERS
+
+let radius = 10;
+const pi = 3.14;
+
+//console.log(radius, pi);
+//math operators +, -<*, /, **, %
+
+console.log(10/2);
+//let result_num = radius % 3;
+//let result_num = pi * radius ** 2;
+//order of operation - B(bracket) I(tavan) D(devision) M(multiply) A(addition) S(submision)
+//let result_num = 5 * (10-3) ** 2;
+//console.log(result_num);
+let likes = 10;
+likes = likes +1
+likes++;
+likes += 10;
+likes -= 5;
+likes --;
+likes *= 2;
+likes /= 2;
+
+let result_con = "the blog has " + likes + " likes";
+console.log(result_con);
+console.log(likes);
+
+
+
 
 
 
