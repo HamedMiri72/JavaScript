@@ -159,6 +159,52 @@ console.log(result_push);
 console.log(list);
 
 
+// NULL AND UNDEFIEND
+let age_null;
+
+console.log(age_null, age_null + 3, `the age is ${age_null}`);
+
+let age_null1 = null;
+console.log(age_null1, age_null1 + 3, `the age is ${age_null1}`);
+
+//BOOLEAN
+
+// Boolean and comparisons
+console.log(true, false, "true", "false");
+
+// methods can return booleans
+let email_boolean = "hamedmiri72@gmail.com";
+
+let names = ["hamed", "miri"];
+let result_names = names.includes("hamed");
+console.log(result_names);
+
+let result_boolean = email_boolean.includes("@");
+console.log(result_boolean);
+
+//comparison operators
+
+let age_comp = 25;
+
+console.log(age_comp == 25);
+console.log(age_comp != 25);
+console.log(age_comp > 20);
+console.log(age_comp <= 25);
+
+
+let name = "hamed";
+console.log(name == "hamed");
+
+console.log(name == "ham");
+
+//lower case letter is grater than upper case letter
+// comparison can work on letters and alphabet
+
+
+
+
+
+
 
 
 
