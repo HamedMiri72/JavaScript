@@ -104,8 +104,26 @@ console.log(result_con);
 console.log(likes);
 
 
+//STRING
 
+const title = 'best reads of 2024';
+const author = 'hamed';
+const likes_string = 30;
+//concatenation way 
+let result_string = "the blog call " + title + " by " + author + " has " + likes + " likes ";
+console.log(result_string);
 
+//Template string way the best way
+let result_tem = `The blog clled ${title} by ${author} has ${likes} likes`;
+console.log(result_tem);
+
+//creating html template 
+let html = `
+    <h2>${title}</h2>
+    <p>By ${author}</p>
+    <span>This blog has ${likes} likes </span>
+`;
+console.log(html);
 
 
 
