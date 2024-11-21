@@ -64,5 +64,18 @@ console.log(result, full_name);
 let index = email.indexOf('@'); // index of the character in the string 
 console.log(index);
 
+//common string methods
+
+//let result_email = email.lastIndexOf("m");
+
+//let result_email = email.slice(0, 10); // it slices the email from position 0 to 10
+
+//let result_email = email.substring(4, 10) //it goses from position 4 to 14
+
+//let result_email = email.replace("h", "n"); // it s going to replace the first m wuth  n
+
+console.log(result_email);
+
+
 
 
