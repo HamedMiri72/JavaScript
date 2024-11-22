@@ -47,8 +47,14 @@ if(array.length > 3){
     console.log("thats a lot of childerens!!")
 }
 
-const password = "pass";
+const password = "hamedmiri72";
 
-if (password.length >= 8){
+if (password.length >= 12){
+    console.log("the password is mighty strong");
+}else if (password.length >= 8){
     console.log("that password is long enough!");
+}else{
+    console.log("the password is not long enough!");
 }
+
+
