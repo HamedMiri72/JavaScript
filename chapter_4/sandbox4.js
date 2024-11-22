@@ -1,0 +1,5 @@
+//Functions 
+
+function greet(){
+    
+}
