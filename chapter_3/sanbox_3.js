@@ -87,6 +87,45 @@ for (let i = 0; i < scores.length; i++){
 }
 
 
+//switch statment
+
+const grade = "C";
+switch(grade){
+    case "A":
+        console.log("you got a A!");
+        break;
+    case "B":
+        console.log("you got a B!");
+        break;
+    case "C":
+        console.log("you got a C!");
+        break;
+    case "D":
+        console.log("you got a D!");
+        break;
+    case "E":
+        console.log("you got a E!");
+        break;
+    default:
+        console.log("not a valid grade!");
+}
+
+//using if statment
+
+if(grade === "A"){
+
+}else if(grade === "B"){
+
+}else if(grade === "C"){
+
+}else if(grade === "D"){
+
+}else if(grade === "E"){
+
+}else{
+
+}
+
 
 
 
