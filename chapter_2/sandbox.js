@@ -201,6 +201,19 @@ console.log(name == "ham");
 // comparison can work on letters and alphabet
 
 
+//TYPE CNVERSION
+let scorType = "100";
+scorType = Number(scorType);
+console.log(scorType + 1);
+console.log(typeof scorType);
+
+let result_bool = Boolean("100");
+console.log(result_bool, typeof result_bool);
+
+
+
+
+
 
 
 
