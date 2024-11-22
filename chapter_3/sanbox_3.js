@@ -31,3 +31,24 @@ while (n < namess.length){
     console.log(namess[n]);
     n++;
 }
+
+
+// if statment
+
+const age = 25;
+
+if (age > 20){
+    console.log("you are over 20 years year!")
+}
+
+const array = ["hamed", "miri", "majid", "behrooz"];
+
+if(array.length > 3){
+    console.log("thats a lot of childerens!!")
+}
+
+const password = "pass";
+
+if (password.length >= 8){
+    console.log("that password is long enough!");
+}
