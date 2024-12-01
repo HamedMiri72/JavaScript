@@ -38,7 +38,36 @@ const calArea = (radius) => {
     return 3.14 * radius**2;
 };
 
+const greet1 = function(){
+    return 'hello world';
+}
 
+const greet2 = () => {
+    return 'hello world';
+}
+
+const result = greet2();
+console.log(result);
+
+// const bill = function(products, tax){
+//     let total = 0;
+//     for (let i = 0; i < products.length; i++){
+//         total += products[i] + products[i] * tax
+//     }
+//     return total;
+// }
+
+// console.log(bill([10, 15, 30], 0.2));
+
+const bill = (products, tax) => {
+    let total = 0;
+    for (let i = 0; i < products.length; i++){
+        total += products[i] + products[i] * tax
+    }
+    return total;
+};
+
+console.log(bill([10,20,30], 0.2));
 
 
 
