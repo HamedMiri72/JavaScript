@@ -70,6 +70,25 @@ const bill = (products, tax) => {
 console.log(bill([10,20,30], 0.2));
 
 
+//functions
+
+const name1 = 'hamed';
+const greet3 = () => {
+    return "hello world";
+};
+
+let resultOne = greet3();
+console.log(resultOne);
+
+//methods
+
+let resultTwo = name1.toUpperCase();
+console.log(resultTwo);
+
+// the only diffrence is we call method on the backof somthing. like .toUpperCae()
+
+
+
 
 
 
